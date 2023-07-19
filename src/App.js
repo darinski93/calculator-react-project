@@ -3,11 +3,10 @@ import './style.css'
 function App() {
   return (
     <div className="calculator-grid">
-      <div className="output"> </div>
-      <div className="previous-openrand"> </div>
-
-      <div className="current-openrand"> </div>
-
+      <div className="output">
+        <div className="previous-openrand"></div>
+        <div className="current-openrand"></div>
+      </div>
       <button className="span-two">AC</button>
       <button>DEL</button>
       <button>÷</button>
@@ -22,18 +21,10 @@ function App() {
       <button>7</button>
       <button>8</button>
       <button>9</button>
+      <button>-</button>
       <button>.</button>
       <button>0</button>
       <button className="span-two">=</button>
-
-
-
-      
-
-
-
-      
-  
     </div>
   );
 }
